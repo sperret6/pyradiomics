@@ -53,10 +53,6 @@ class RadiomicsCustoms(base.RadiomicsFeaturesBase):
             distances.append(euclidean(p, centroid))
       return np.median(distances)
 
-    def
-
-
-
 
     def _transformIndexToPysicalPoint(self, list):
 
